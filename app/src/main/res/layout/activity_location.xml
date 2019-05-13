@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brick"
+    tools:context=".LoginActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#90D3D3D3"
+                android:freezesText="false"
+                android:padding="20dp"
+                android:text="My Location"
+                android:textAlignment="center"
+                android:textColor="@color/secondary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/asul" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="145dp"
+                android:layout_height="137dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/loca"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/currentlocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="your location will appear here "
+                android:inputType="textMultiLine"
+                android:textColor="@color/secondary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/hostel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="Hostel Details - Room No, Hostel Name"
+                android:inputType="textMultiLine"
+                android:textColor="@color/secondary"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Get Current Location"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/asul" />
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="Submit Location"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/asul" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

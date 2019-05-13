@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">ComplaintApp</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="login_signup">Login / SignUp</string>
+    <string name="enter_password_here">Enter password here</string>
+    <string name="enter_email_id_here">Enter email id here</string>
+    <string name="sample">sample</string>
+    <string name="login_signu">Login / Signup</string>
+    <string name="complaint_app">Complaint App</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="todo">todo</string>
+    <string name="phone_number">Email Id</string>
+    <string name="upload_an_image">Upload an Image</string>
+    <string name="choose_an_image">Choose an Image</string>
+    <string name="new_complaint">New Complaint</string>
+    <string name="your_name">Your Name</string>
+    <string name="upload_image">Upload Image</string>
+    <string name="enter_your_complaint_here">Enter your complaint here</string>
+    <string name="your_address">Your Address</string>
+    <string name="submit_complaint">Submit Complaint</string>
+    <string name="view_complaints">View Complaints</string>
+    <string name="textview">TextView</string>
+
+
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brick"
+    tools:context=".FinalComplaint">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/finall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#90D3D3D3"
+                android:freezesText="false"
+                android:padding="20dp"
+                android:text="@string/new_complaint"
+                android:textAlignment="center"
+                android:textColor="@color/secondary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                app:fontFamily="@font/asul" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="149dp"
+                android:layout_height="147dp"
+                android:contentDescription="@string/todo"
+                android:src="@drawable/compla"
+                android:visibility="visible" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#90D3D3D3"
+                android:ems="10"
+                android:hint="@string/your_name"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:padding="5dp"
+                android:textColor="@color/secondary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <EditText
+                android:id="@+id/complaint"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#90D3D3D3"
+                android:ems="10"
+                android:hint="@string/enter_your_complaint_here"
+                android:importantForAutofill="no"
+                android:inputType="textMultiLine"
+                android:textColor="@color/secondary"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:targetApi="o" />
+
+            <Button
+                android:id="@+id/imageupload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/upload_image"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/asul" />
+
+            <Button
+                android:id="@+id/adressupload"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/your_address"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/asul" />
+
+            <Button
+                android:id="@+id/final_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark"
+                android:text="@string/submit_complaint"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                app:fontFamily="@font/asul" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/textview"
+                android:visibility="invisible" />
+
+        </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>
